@@ -1,0 +1,105 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Light pink background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column; /* Ensures the title and form are stacked vertically */
+    text-align: center; /* Centers the content */
+  }
+  
+  /* Title Styling */
+  h1 {
+    font-size: 36px;
+    color: #d81b60; /* Deep pink color for the title */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Wrapper for the forms */
+  div {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Limit width on larger screens */
+    text-align: center;
+  }
+  
+  /* Title for the forms */
+  h2 {
+    color: #d81b60;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #d81b60;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  button:hover {
+    background-color: #c2185b; /* Darker pink shade on hover */
+  }
+  
+  /* Text for switching between login/signup */
+  span {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  a {
+    color: #d81b60;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 600px) {
+    div {
+      padding: 20px; /* Reduce padding for smaller screens */
+    }
+  
+    input, button {
+      font-size: 14px; /* Smaller font size for mobile */
+    }
+  
+    h1 {
+      font-size: 28px; /* Adjust title font size for smaller screens */
+    }
+  }
+  
